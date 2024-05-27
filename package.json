@@ -1,0 +1,27 @@
+{
+  "name": "bookcatalog-automation",
+  "version": "1.0.0",
+  "description": "QA Book Catalog manual and automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --no-timeouts 'test/bookcatalog/scripts/*.js' --parallel --reporter mochawesome --require mochawesome/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "bookcatalog-automation"
+  },
+  "author": "Jeremy Opriasa",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^5.1.1",
+    "express": "^4.19.2",
+    "mocha": "^10.4.0",
+    "nodemon": "^3.1.1",
+    "selenium-webdriver": "^4.21.0"
+  },
+  "devDependencies": {
+    "mochawesome": "^7.1.3",
+    "chai": "*",
+    "mocha": "*"
+  }
+}
